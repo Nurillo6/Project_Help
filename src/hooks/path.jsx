@@ -8,7 +8,6 @@ export const PATH = {
     studentsAdd:"/students/add",
     studentsMore:"/students/:id",
     studentsEdit:"/students/:id/edit",
-    market:"/market",
     stack:"/stack",
     stackAdd:"/stack/add",
     stackEdit:"/stack/edit/:stackId",

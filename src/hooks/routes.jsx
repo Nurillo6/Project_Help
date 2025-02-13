@@ -1,7 +1,7 @@
 import React from 'react'
 import { PATH } from "./path";
-import {Home,  Market, Stack, Students, Teachers, TeachersCrud, TeachersMore, Group, GroupCrud, SingleGroup, StudentsCrud, StudentMore} from "../pages/Dashboard"
-import { CodeSandboxOutlined, HomeOutlined, ShoppingCartOutlined, UsergroupAddOutlined, UserOutlined } from '@ant-design/icons';
+import {Home, Stack, Students, Teachers, TeachersCrud, TeachersMore, Group, GroupCrud, SingleGroup, StudentsCrud, StudentMore} from "../pages/Dashboard"
+import { CodeSandboxOutlined, HomeOutlined, UsergroupAddOutlined, UserOutlined } from '@ant-design/icons';
 import StackCrud from '../pages/Dashboard/Stack/StackCrud';
 
 export const dashboardNavList = [
@@ -32,14 +32,7 @@ export const dashboardNavList = [
         element:<Stack/>,
         title:"Yo'nalishlar",
         icon:<CodeSandboxOutlined className='!text-[22px]' />
-    },
-    {
-        id:5,
-        path:PATH.market,
-        element:<Market/>,
-        title:"Do'kon",
-        icon:<ShoppingCartOutlined className='!text-[22px]' />
-    },
+    }
 ]
 
 export const dashboardRouteList = [
@@ -62,11 +55,6 @@ export const dashboardRouteList = [
         id:4,
         path:PATH.stack,
         element:<Stack/>,
-    },
-    {
-        id:5,
-        path:PATH.market,
-        element:<Market/>,
     },
     {
         id:6,

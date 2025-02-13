@@ -1,8 +1,8 @@
 import { Select } from 'antd'
 import React from 'react'
 import getRequest from "../service/getRequest"
-const FilterCustom = ({setFilterId, filterId, extraClass, API, placeholder, mode, setFilterName}) => {
-    const data = getRequest(API)
+const FilterCustom = ({setFilterId, filterId, extraClass, API, placeholder, mode, setFilterName, refresh}) => {
+    const data = getRequest(API, null, refresh)
     const options = data.map(item => ({label:item.name,value:item.id})) 
     
     function onChange(value, data){

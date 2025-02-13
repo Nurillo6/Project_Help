@@ -343,21 +343,21 @@
   ],
   "students": [
     {
-      "id": "1",
       "studentId": "18295",
-      "name": "Eldor",
+      "name": "Eldorbek",
       "groupId": "1",
-      "group":"React JS N77",
+      "group": "React JS N77",
       "stackId": "1",
       "surname": "Xudoyberganov",
-      "age": "16",
-      "region": "Toshkent",
-      "regionId": "1",
-      "district": "Olmazor tumani",
-      "study": "333-maktab",
-      "status": true,
+      "age": "20",
+      "region": "Fargona",
+      "regionId": "2",
+      "district": "Qoqon shahri",
+      "study": "O'qimaydi ",
       "phone": "+998909718295",
-      "email": "eldor@gmail.com"
+      "email": "eldor@gmail.com",
+      "status": true,
+      "id": "1"
     },
     {
       "id": "2",
@@ -365,7 +365,7 @@
       "name": "Temur",
       "surname": "Tolibov",
       "groupId": "2",
-      "group":"Backend NodeJS N72",
+      "group": "Backend NodeJS N72",
       "stackId": "2",
       "age": "20",
       "region": "Fargona",
@@ -375,6 +375,23 @@
       "status": true,
       "phone": "+998973361266",
       "email": "temur@gmail.com"
+    },
+    {
+      "id": "facf",
+      "studentId": "222112",
+      "name": "Abror",
+      "groupId": "9b2c",
+      "group": "Full Stack N01",
+      "stackId": "3",
+      "surname": "Qodirov",
+      "age": "43",
+      "region": "Toshkent",
+      "regionId": "1",
+      "district": "Shayhontohur tumani",
+      "study": "Bitirgan",
+      "phone": "+998912345567",
+      "email": "abror@gmail.com",
+      "status": true
     }
   ],
   "rooms": [
